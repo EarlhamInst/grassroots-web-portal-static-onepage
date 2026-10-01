@@ -200,7 +200,7 @@ style="background-image: url('img/nature-2571086_1920_40_opac.png');background-p
                     fieldTrialItemCount++; 
 
 
-                    const trialLink = server_django_url + `/fieldtrial/trial/${result.data.id}`;
+                    const trialLink = server_django_url + `/fieldtrial/${result.data.id}`;
                     const titleLink = `<a href="${trialLink}" target="_blank">${result.data['so:name']}</a>`;
 
                     // Check for the provider information
